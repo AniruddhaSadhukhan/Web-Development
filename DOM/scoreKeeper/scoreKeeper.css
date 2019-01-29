@@ -1,0 +1,17 @@
+html,body
+{
+	height: 100%;
+}
+body
+{
+	margin: 15% auto auto 35%;
+}
+h1
+{
+	font-size: 5em;
+}
+.winner
+{
+	color: green;
+	font-size: 1.5em;
+}

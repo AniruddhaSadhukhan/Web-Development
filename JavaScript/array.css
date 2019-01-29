@@ -1,0 +1,10 @@
+html,body
+{
+	height:100%;
+}
+
+#content
+{
+	margin: 10% auto auto 15%;
+	font-size : 2rem;
+}

@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+    <canvas id="world" style="position:absolute; z-index:9999;"></canvas>
+    <head>
+        <title>Color Game by Aniruddha</title>
+        <link rel="stylesheet" type="text/css" href="colorGame.css">
+        <link rel="stylesheet" type="text/css" href="Confetti.css">
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    </head>
+    <body>
+        
+        <div id="header">
+        	<a href="https://anianiruddha.wordpress.com/"><button>Created by Aniruddha Sadhukhan</button></a>
+        </div>
+        
+        <h1>The Great<br><span id="colorDisplay">RGB</span><br>Color Game</h1>
+        
+        <div id="stripe">
+        	<button id = "reset">New Colors</button>
+        	<button id="help">Help</button>
+        	<span id="message"></span>
+        	<span id="chanceLeft">Chances Left: </span>
+        	<span id="chance"></span>
+        	<button class="mode">Easy</button>
+        	<button class = "mode selected">Hard</button>
+        	<button class = "mode">Expert</button>
+        </div>
+        <div id="container">
+        	<div class="help">
+			This is a very simple game of guessing the right color, RGB stands for:
+			<br>
+			<div id="helpColors">
+				<span id="red">R</span> - Red
+				<br>
+				<span id="green">G</span> - Green
+				<br>
+				<span id="blue">B</span> - Blue
+				<br>
+			</div>
+			For example RGB(100, 50, 25) is R/red = 100, G/green = 50 and B/blue = 25.
+			<br>
+			The higher the number the higher the domineance of that color.
+			<br>
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/AdditiveColor.svg/2000px-AdditiveColor.svg.png">
+			<br>
+			You can read about it <a href="https://en.wikipedia.org/wiki/RGB_color_model" target="_blank">here</a>
+		</div>
+		
+		<div id="grid">
+        	<div class="square"></div>
+        	<div class="square"></div>
+        	<div class="square"></div>
+        	<div class="square"></div>
+        	<div class="square"></div>
+        	<div class="square"></div>  
+        	<div class="square"></div>
+        	<div class="square"></div>
+        	<div class="square"></div>  
+        	</div>   	
+        </div>
+        <script src="colorGame.js"></script>
+        <script src="Confetti.js" type="text/javascript"></script>
+    </body>
+</html> 

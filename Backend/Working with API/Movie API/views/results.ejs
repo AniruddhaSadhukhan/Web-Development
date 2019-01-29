@@ -1,0 +1,15 @@
+<h1> Results Page!!! </h1>
+
+<% if (data.Search){ %>
+	<ul>
+		<% data["Search"].forEach(function(movie){ %>
+			<li>
+				<strong> <%= movie.Title %> </strong> (<%= movie.Year %>)
+			</li>
+		<% }) %>
+	</ul>
+<% } else { %>
+	<h2> Sorry !!! I am not familiar with any movie containing the given string </h2>
+<% } %>
+
+<a href = "/"> Search for new movie </a>
