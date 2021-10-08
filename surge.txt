@@ -1,2 +1,0 @@
-email : ani@zippiex.com
-pass:   12345678
