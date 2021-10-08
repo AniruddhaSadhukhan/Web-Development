@@ -1,6 +1,0 @@
-ani@22office.com
-uname: aniwebdev
-
-user: 	ani 
-pass: 	ani1234 
-url	: 	"mongodb://ani:ani1234@ds111455.mlab.com:11455/anicamp"
